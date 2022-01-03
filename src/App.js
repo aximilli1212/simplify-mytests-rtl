@@ -1,8 +1,10 @@
 import './styles/App.css';
+import Jumbotron from "./home/Jumbotron";
 
 function App() {
   return (
     <div className="App">
+      <Jumbotron />
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
