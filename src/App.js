@@ -1,23 +1,12 @@
 import './styles/App.css';
-import Jumbotron from "./home/Jumbotron";
+// import Jumbotron from "./home/Jumbotron";
+import Table from "./home/Table";
 
 function App() {
   return (
     <div className="App">
-      <Jumbotron />
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<Jumbotron />*/}
+        <Table employees={[{id: 1, name:"alice", department: "Moon", title: "off"}]} />
     </div>
   );
 }
