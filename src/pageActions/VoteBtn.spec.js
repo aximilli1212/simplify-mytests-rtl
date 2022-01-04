@@ -10,7 +10,8 @@ test('invokes handle', ()=>{
              handleVote={mockHandleVote}
              hasVoted={false}
              imgSrc={thumbsUp}
-             altText="Vote like" />
+             altText="Vote like"
+         />
      )
 
     user.click(screen.getByRole('button', { name: /vote like/i }))
