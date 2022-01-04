@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       {/*<Jumbotron />*/}
-        <Table employees={[{id: 1, name:"alice", department: "Moon", title: "off"}]} />
+      {/*  <Table employees={[{id: 1, name:"alice", department: "Moon", title: "off"}]} />*/}
     </div>
   );
 }
